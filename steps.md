@@ -39,7 +39,7 @@ cd ../csharp
 using System.Runtime.InteropServices;
 
 
-[DllImport("../rust/target/debug/libhellorust.dylib")]
+[DllImport("libhellorust")]
 public static extern bool in_portland();
 
 #Use the function:
